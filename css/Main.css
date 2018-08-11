@@ -1,0 +1,95 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b2432;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
+}
+
+.bgimage{
+    background-image: url('../img/bg-web.png');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 950px;
+    border-bottom: 2px solid #808080;
+}
+
+.anchorHorizontal {
+    width: 100%;
+    font-size: 100%;
+}
+
+
+#img-bio {
+    width: 20%;
+}
+
+
+#spring-ico {
+    width: 1em;
+    margin-bottom: 0.2em;
+}
+
+#tomcat-ico {
+    width: 1.5em;
+    margin-bottom: 0.3em;
+}
+
+#java-svg {
+    width: 1.5em;
+    margin-bottom: -0.2em;
+}
+
+#homeImg {
+    margin-top: 5%;
+}
+
+.textNiceOrange {
+    color: #D87A68 !important;
+}
+
+.circle {
+    background: red;
+    border-radius: 400px;
+    color: white;
+    height: 400px;
+    width: 400px;
+    margin-left: 30%;
+}
+
+#contactContent {
+    margin-top: 10%;
+}
+
+
+.textWhite {
+    color: whitesmoke;
+}
+
+.bgWhiteWrapper {
+    background-color: rgba(229, 229, 229, 0.9);
+    padding: 2%;
+    border-radius: 5px;
+}
+
+#img-music {
+    border-radius: 5px;
+}
+
+.introdVid iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.introdVid {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}

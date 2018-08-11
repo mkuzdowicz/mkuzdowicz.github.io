@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Martin Kuzdowicz - Senior Software Engineer | Big Data | Machine Learning | Cloud And Musician</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Martin Kuzdowicz - Senior Software Engineer | Big Data | Machine Learning | Cloud And Musician" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-route.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <script src="js/Main.js"></script>
+    <link rel="stylesheet" href="css/libs/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/libs/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/Main.css" />
+</head>
+<body ng-app="kuzdowiczPage">
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand textNiceOrange" href="#/">Martin Kuzdowicz</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navItemsCollapse">
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                </button>
+            </div>
+
+            <div id="navItemsCollapse" class="collapse navbar-collapse">
+                <ul id="navMenu" class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#/">home</a></li>
+                    <li><a href="#/about">about</a></li>
+                    <li><a href="#/musician">music</a></li>
+                    <li><a href="#/contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 bgimage">
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <div class="center-block">
+                    <ng-view>
+                    </ng-view>
+
+                    <br />
+                    <footer class="center-block">
+                        <div class="text-center">
+                            <a target="_blank" class="btn btn-sm btn-social btn-linkedin" href="https://www.linkedin.com/in/mkuzdowicz">
+                                <span class="fa fa-linkedin"></span>linkedin.com/in/mkuzdowicz
+                            </a>
+                            <a target="_blank" class="btn btn-sm btn-social btn-github" href="https://github.com/mkuzdowicz">
+                                <span class="fa fa-github"></span>github.com/mkuzdowicz
+                            </a>
+                            <a target="_blank" class="btn btn-sm btn-social btn-google" href="https://www.youtube.com/user/martinkuzdowicz">
+                                <span class="fa fa-youtube"></span>youtube.com/user/martinkuzdowicz
+                            </a>
+                        </div>
+                        <br />
+                    </footer>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

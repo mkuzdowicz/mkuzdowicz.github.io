@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /pdf/
+Disallow: /favicon/
+Disallow: /App_Data/
+Disallow: /private/
+Sitemap: http://www.martinkuzdowicz.com/sitemap.xml
