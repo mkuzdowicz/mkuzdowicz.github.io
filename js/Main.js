@@ -17,6 +17,8 @@ kuzdowiczPage.config(function ($routeProvider) {
         templateUrl: 'templates/Contact.html'
     });
 
+    // $routeProvid.html5Mode(true);
+
 });
 
 

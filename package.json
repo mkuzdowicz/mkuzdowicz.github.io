@@ -1,0 +1,23 @@
+{
+  "name": "kuzdowicz-business-card-page",
+  "version": "1.0.0",
+  "description": "kuzdowicz business card page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makuz/homePage.git"
+  },
+  "author": "Martin Kuzdowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makuz/homePage/issues"
+  },
+  "homepage": "https://github.com/makuz/homePage#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
